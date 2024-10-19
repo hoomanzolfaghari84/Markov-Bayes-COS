@@ -1,7 +1,7 @@
 import numpy as np
 
 class BayesMarkovModel():
-    def __init__(self, grid_size):
+    def __init__(self, grid_size : int):
         self.grid_size = grid_size
 
     # Function to calculate clique energy for a given neighborhood
